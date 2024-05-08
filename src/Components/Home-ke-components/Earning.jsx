@@ -2,10 +2,10 @@
 import earning1 from "../../assets/images/earning1.webp"
 import earning2 from "../../assets/images/earning2.webp"
 import earning3 from "../../assets/images/earning3.webp"
-import earningStep1 from "../../assets/images/earningStep1.webp"
-import earningStep2 from "../../assets/images/earningStep2.webp"
-import earningStep3 from "../../assets/images/earningStep3.webp"
-import earningStep4 from "../../assets/images/earningStep4.webp"
+// import earningStep1 from "../../assets/images/earningStep1.webp"
+// import earningStep2 from "../../assets/images/earningStep2.webp"
+// import earningStep3 from "../../assets/images/earningStep3.webp"
+// import earningStep4 from "../../assets/images/earningStep4.webp"
 
 const Earning = () => {
     return (
@@ -54,7 +54,7 @@ const Earning = () => {
 
 
 
-                <div className=" flex flex-wrap  justify-evenly gap-3 ">
+                {/* <div className=" flex flex-wrap  justify-evenly gap-3 ">
 
                     <div id="cd" className="flex gap-5 max-w-[20rem]">
                         <div>
@@ -95,7 +95,7 @@ const Earning = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
                 
                 <div className="box_parent   my-32 tablet:mb-20 ">

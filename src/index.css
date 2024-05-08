@@ -43,7 +43,7 @@ body {
 #banner-inner{
     /* padding: 20px; */
     background-color: rgba(0, 0, 0, 0.717);
-    box-shadow: #3c3c3c 0px 0px 5px 5px;
+    box-shadow: #3c3c3c 0px 3px 5px 2px;
 }
 
  
@@ -53,6 +53,8 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+ 
 
 
 
