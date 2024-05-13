@@ -1,13 +1,16 @@
-import st from "../../assets/icons/safe tick.webp"
-import rcoin from "../../assets/icons/ramsenaCoin.webp"
+// import st from "../../assets/icons/safe tick.webp"
+// import rcoin from "../../assets/icons/ramsenaCoin.webp"
+import HeroImg from "../../assets/images/heroImg.svg"
 
 const Hero = () => {
     return (
         <>
-            <div id="hero-main" className=" min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-cover bg-center px-3  py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
+            <div id="hero-main" className=" relative min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-  bg-cover bg-center px-3 z-0 py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
+                {/* <div
+                    className="absolute z-[-1] inset-0 h-full bg-black opacity-30 rounded-[40px]"
+                ></div> */}
 
-
-                <div className="h-full w-full flex laptop:flex-col items-center justify-center ">
+                <div className="h-full   w-full flex laptop:flex-col items-center justify-center ">
 
                     <div id="hero-left"
                         className="     w-[55%] h-[100%] flex flex-col justify-center  gap-10 desktop:w-[100%]  desktop:mt-[50px] "
@@ -22,7 +25,7 @@ const Hero = () => {
 
                             </h1>
 
-                            <p className=" flex leading-snug font-normal   text-[17px] w-[80%] tracking-[0.35px] desktop:w-[90%] laptop:text-center  laptop:m-auto desktop:phone:w-[100%] ">
+                            <p className=" flex leading-snug font-normal    text-[17px] w-[80%] tracking-[0.35px] desktop:w-[90%] laptop:text-center  laptop:m-auto desktop:phone:w-[100%]    ">
                                 Earn staking rewards every second with Ramsena, a staking token with slashing protection.Earn staking rewards every second with Ramsena, a staking token with slashing protection. Earn staking rewards every second with Ramsena, a staking token with slashing protection.
 
                             </p>
@@ -34,7 +37,10 @@ const Hero = () => {
                         className=" text-black relative z-10 laptop:mt-10 w-[40%] h-[100%] flex justify-center gap-0  desktop:w-[100%] "
                     >
 
-                        <div id="hero-right-container"
+                        <div>
+                            <img src={HeroImg} alt="" />
+                        </div>
+                        {/* <div id="hero-right-container"
                             className=" flex   flex-col py-5 justify-center gap-5     min-h-[600px]  w-[500px] max-w-[600px] overflow-hidden rounded-[30px]   bg-cover bg-opacity-80 bg-center  px-4"
                         >
 
@@ -103,7 +109,7 @@ const Hero = () => {
 
 
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

@@ -3,7 +3,9 @@ import st from "../../assets/icons/safe tick.webp"
 import rcoin from "../../assets/icons/ramsenaCoin.webp"
 import graf1 from "../../assets/icons/graf.svg"
 import approveImg from "../../assets/icons/stake-approve-img.svg"
+// import logo from "../../assets/icons/logo.webp"
 import { useState } from "react";
+// import { Link } from "react-router-dom"
 
 const StakeHero = () => {
 
@@ -15,14 +17,17 @@ const StakeHero = () => {
 
     return (
         <>
-            <div id="hero-main" className=" min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-cover bg-center px-3  py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
+           
+            
 
+            <div id="hero-main" className=" min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-cover bg-center px-3  py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
 
                 <div className="h-full w-full flex laptop:flex-col items-center justify-center ">
 
                     <div id="hero-left"
-                        className="     w-[55%] h-[100%] flex flex-col justify-center  gap-10 desktop:w-[100%]  desktop:mt-[50px] "
+                        className="w-[55%] h-[100%] flex flex-col justify-center  gap-10 desktop:w-[100%]  desktop:mt-[50px]"
                     >
+
                         <div id="hero-left-top" className="  flex flex-col gap-8">
 
                             <h1 className=" text-[75px] font-normal relative  leading-tight  laptop:text-center desktop:text-[60px]  desktop:laptop:text-[50px]  desktop:laptop:phone:text-[30px]    ">
