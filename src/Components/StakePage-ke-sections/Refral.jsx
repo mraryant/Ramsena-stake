@@ -169,7 +169,7 @@ const Refral = () => {
                                         <td className="px-6 py-4">{index + 1}</td>
                                         <td className="px-6 py-4">{row[0]}</td>
                                         <td className="px-6 py-4 text-yellow-500 text-nowrap ">$ {row[1]}</td>
-                                        <td className="  px-4 py-4"> <span className='bg-yellow-300 text-black px-6 py-1 rounded-3xl text-nowrap ' >{row[2]} days</span> </td>
+                                        <td className="  px-4 py-4"> <span className='bg-yellow-300 text-black px-6 py-1 rounded-3xl text-nowrap  ' >{row[2]} days</span> </td>
                                         {currentData === 'Refral' && (
                                             <>
                                                 <td className="px-6 py-4">{row[3]}</td>

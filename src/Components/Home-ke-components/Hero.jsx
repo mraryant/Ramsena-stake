@@ -5,10 +5,10 @@ import HeroImg from "../../assets/images/heroImg.svg"
 const Hero = () => {
     return (
         <>
-            <div id="hero-main" className=" relative min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-  bg-cover bg-center px-3 z-0 py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
-                {/* <div
-                    className="absolute z-[-1] inset-0 h-full bg-black opacity-30 rounded-[40px]"
-                ></div> */}
+            <div id="hero-main" className=" relative min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.jpg')] bg-  bg-cover bg-center px-3 z-0 py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
+                <div
+                    className="absolute z-[-1] inset-0 h-full bg-black opacity-[0.5] rounded-[40px]"
+                ></div>
 
                 <div className="h-full   w-full flex laptop:flex-col items-center justify-center ">
 

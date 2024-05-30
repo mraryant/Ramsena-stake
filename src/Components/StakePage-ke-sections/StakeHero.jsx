@@ -20,8 +20,10 @@ const StakeHero = () => {
            
             
 
-            <div id="hero-main" className=" min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.webp')] bg-cover bg-center px-3  py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
-
+            <div id="hero-main" className=" min-h-[90vh]  flex items-center bg-[url('/bgimg/herobg.jpg')] bg-cover bg-center px-3  py-10  mx-5 phone:mx-2 my-10 rounded-[40px]   ">
+                <div
+                    className="absolute z-[-1] inset-0 h-full bg-black opacity-[0] rounded-[40px]"
+                ></div>
                 <div className="h-full w-full flex laptop:flex-col items-center justify-center ">
 
                     <div id="hero-left"
