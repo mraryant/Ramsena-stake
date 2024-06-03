@@ -8,8 +8,9 @@
   padding: 0;
   box-sizing: border-box; 
 }
+ 
 :root {
-  --primary-gradient: linear-gradient(90deg, #e18dff 0%, #3d73ff 96.4%);
+  --primary-gradient: linear-gradient(90deg, #a2a24b 0%, #E1B336 96.4%);
   --Hero-card-gradient: linear-gradient(90deg, #D2F1F9 0%, #E1B336 96.4%);
   --primary-color: #E1B63E;
   --secondry1-color: #ab53ea;
@@ -34,8 +35,8 @@ body {
 #hero-right-container {
   background: linear-gradient(
     180deg,
-    #D2F1F9 2.26%,
-    #E1B336 96.92%
+    #bbd9e0 2.26%,
+    #bd972d 96.92%
   );
   box-shadow: 0px 0px 10px 0px #E1B336;
   backdrop-filter: blur(2px);

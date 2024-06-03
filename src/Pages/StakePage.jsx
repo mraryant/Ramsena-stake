@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar"
 import Refral from "../Components/StakePage-ke-sections/Refral"
 import StakeHero from "../Components/StakePage-ke-sections/StakeHero"
+import StakingList from "../Components/StakePage-ke-sections/StakingList"
 
  
 
@@ -9,7 +10,8 @@ const StakePage = () => {
     <>
       <Navbar/>
       <StakeHero />
-      <Refral/>
+      {/* <Refral /> */}
+       <StakingList/>
       </>
   )
 }

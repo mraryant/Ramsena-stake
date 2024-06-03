@@ -11,7 +11,6 @@ const Navbar = () => {
               
               <div>
                   <Link to="/Stake" className=" bg-white w-fit text-black px-4 py-2  rounded-3xl " > stake now ➜ </Link>
-
               </div>
               
           </div>
