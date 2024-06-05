@@ -179,7 +179,6 @@ const StakingList = () => {
                                         <th scope="col" className="px-6 py-3">Referral Address</th>
                                         <th scope="col" className="px-6 py-3">Amount</th>
                                         <th scope="col" className="px-6 py-3">Level</th>
-
                                     </>
                                 )}
                             </tr>
@@ -207,6 +206,7 @@ const StakingList = () => {
                                                 </td>
                                             </>
                                         )}
+
                                         {currentData === 'Refral' && (
                                             <>
                                                 <td className="px-6 py-4">{(currentPage - 1) * itemsPerPage + index + 1}</td>
@@ -218,7 +218,7 @@ const StakingList = () => {
                                                             className={` active:scale-[0.8] ${copyStatus[index] ? "bg-green-500 rounded-sm " : "bg-transparent"} transition-all ease-in-out  w-[15px] h-[15px]`} alt="copy"
                                                         />
                                                         <p>
-                                                            {row[0]} 
+                                                            {row[0]}
                                                         </p>
                                                     </div>
                                                 </td>
@@ -227,7 +227,6 @@ const StakingList = () => {
                                             </>
                                         )}
                                     </tr>
-
 
                                 </>
 

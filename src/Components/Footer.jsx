@@ -20,7 +20,7 @@ const Footer = () => {
                                 <img loading="lazy" src={logo} className="h-[50px] me-3" alt="FlowBite Logo" />
                                 {/* <span className="self-center text-primary-gradient text-4xl font-bold whitespace-nowrap  text-white">VoIP Finance</span> */}
                             </a>
-                            <p className=" tablet:text-center " > Ramsena supports a diverse range of cryptocurrencies for staking, providing you with ample opportunities to diversify your portfolio. Explore our list of supported</p>
+                            <p className=" tablet:text-center " > Spread the word about Ramsena today! Share with friends and family, and watch your earnings grow effortlessly. Join the movement and start earning now!</p>
                             <div className="flex gap-5" >
                                 <a target="blank" href=" "> <img loading="lazy" className=" h-auto w-auto hover:scale-[1.3] transform-scale duration-300" src={youtube} alt="youtube" /> </a>
                                 <a target="blank" href=" "> <img loading="lazy" className=" h-auto w-auto hover:scale-[1.3] transform-scale duration-300" src={twiter} alt="twiter" /> </a>

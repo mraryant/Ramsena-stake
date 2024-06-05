@@ -19,14 +19,15 @@ const Hero = () => {
 
                             <h1 className=" text-[75px] font-normal relative  leading-tight  laptop:text-center desktop:text-[60px]  desktop:laptop:text-[50px]  desktop:laptop:phone:text-[30px]    ">
 
-                                Earn rewards every day
+                                {/* Earn rewards every day
                                 on Staking up to 18%
-                                per year
+                                per year */}
+                                Welcome to Ramsena Staking ,Earn rewards every day
 
                             </h1>
 
                             <p className=" flex leading-snug font-normal    text-[17px] w-[80%] tracking-[0.35px] desktop:w-[90%] laptop:text-center  laptop:m-auto desktop:phone:w-[100%]    ">
-                                Earn staking rewards every second with Ramsena, a staking token with slashing protection.Earn staking rewards every second with Ramsena, a staking token with slashing protection. Earn staking rewards every second with Ramsena, a staking token with slashing protection.
+                                Maximize your crypto assets with Ramsena's staking plans. Secure and grow your investment with our reliable, profitable staking options. Unlock the full potential of your holdings today and enjoy impressive returns.
 
                             </p>
                         </div>

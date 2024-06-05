@@ -112,9 +112,8 @@ const StakeHero = () => {
 
                             <h1 className=" text-[75px] font-normal relative  leading-tight  laptop:text-center desktop:text-[60px]  desktop:laptop:text-[50px]  desktop:laptop:phone:text-[30px]    ">
 
-                                Earn rewards every day
-                                on Staking up to 18%
-                                per year
+                                Earn rewards Staking up to 160.0%
+                                 
 
                             </h1>
 
@@ -213,34 +212,34 @@ const StakeHero = () => {
                                                 <ul className="  text-sm text-gray-200" aria-labelledby="dropdownDefaultButton">
                                                     <li className="   border-yellow-500 border-b-[1px] " >
                                                         <button
-                                                            onClick={() => handleItemClick(30, 30)}
+                                                            onClick={() => handleItemClick(360, 18)}
                                                             className="block w-full px-4 py-2    hover:bg-gray-600  hover:text-white"
                                                         >
-                                                            30 Days
+                                                            360 Days
                                                         </button>
                                                     </li>
                                                     <li className="   border-yellow-500 border-b-[1px] ">
                                                         <button
-                                                            onClick={() => handleItemClick(90, 55)}
+                                                            onClick={() => handleItemClick(720, 40)}
                                                             className="block w-full px-4 py-2 hover:bg-gray-600 dark:hover:bg-gray-600 dark:hover:text-white"
                                                         >
-                                                            90 Days
+                                                            720 Days
                                                         </button>
                                                     </li>
                                                     <li className="  border-yellow-500 border-b-[1px] ">
                                                         <button
-                                                            onClick={() => handleItemClick(180, 72)}
+                                                            onClick={() => handleItemClick(1080, 80)}
                                                             className="block w-full px-4 py-2 hover:bg-gray-600 dark:hover:bg-gray-600 dark:hover:text-white"
                                                         >
-                                                            180 Days
+                                                            1080 Days
                                                         </button>
                                                     </li>
                                                     <li >
                                                         <button
-                                                            onClick={() => handleItemClick(365, 120)}
+                                                            onClick={() => handleItemClick(1440, 160)}
                                                             className="block w-full px-4 py-2 hover:bg-gray-600 dark:hover:bg-gray-600 dark:hover:text-white"
                                                         >
-                                                            365 Days
+                                                            1440 Days
                                                         </button>
                                                     </li>
 
